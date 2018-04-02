@@ -750,15 +750,6 @@ function iHeartYou(){
 		vtext.style.letterSpacing = "3px";
 	},10);
 
-	// After 9 seconds, swipe down to CREDITS.
-	// No replay. Fuck it.
-	setTimeout(function(){
-		document.getElementById("whole_container").style.top = "-200%";
-	},7300);
-	setTimeout(function(){
-		yourMessage.focus();
-	},8500);
-
 }
 
 var rewindFrame = 0;
